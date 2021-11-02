@@ -2,7 +2,7 @@ import React from 'react';
 import hamburguerIcon from '../../assets/icon-menu.svg';
 import chevron_right from '../../assets/right-chevron.png';
 import '../../styles/components/navbar.css';
-// import { Link } from 'react-router-dom';
+
 
 function Navbar() {
   return (
