@@ -1,10 +1,12 @@
 import React from 'react'
+
 import hamburguerIcon from '../../assets/icon-menu.svg';
 import chevron_right from '../../assets/right-chevron.png';
 import "../../styles/components/navbar.css";
+
 import { Link } from 'react-router-dom';
 
-function Home() {
+function Navbar() {
     return (
         <div className="container">
             <div className="navbar__wrapper">
@@ -36,7 +38,6 @@ function Home() {
                                 <i className="navbar-mobile__chevron">
                                     <img className="chevron_right" src={chevron_right} alt="" />
                                 </i>
-
                             </div>
                         </li>
                         <li>
@@ -113,22 +114,23 @@ function Home() {
                         </li>
                     </ul>
                 </nav>
-            </div>
             
-            {/* <nav className="navbar-mobile__items">
-                <ul>
-                    <li><Link to='/' />Mercury</li>
-                    <li><Link to='/' />Venus</li>
-                    <li><Link to='/' />Earth</li>
-                    <li><Link to='/' />Mars</li>
-                    <li><Link to='/' />Jupiter</li>
-                    <li><Link to='/' />Saturn</li>
-                    <li><Link to='/' />Uranus</li>
-                    <li><Link to='/' />Neptune</li>
-                </ul>
-            </nav> */}
+            
+                <nav className="navbar-desktop__items">
+                    <ul>
+                        <li>Mercury</li>
+                        <li>Venus</li>
+                        <li>Earth</li>
+                        <li>Mars</li>
+                        <li>Jupiter</li>
+                        <li>Saturn</li>
+                        <li>Uranus</li>
+                        <li>Neptune</li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
 }
 
-export default Home
+export default Navbar
