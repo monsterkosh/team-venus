@@ -1,13 +1,9 @@
 import React from 'react';
+import Home from '../Home/Home';
 
 const Planets = (data) => {
   console.log(data);
-  return (
-    <div>
-      <h1>planets component</h1>
-      <p>{data.planetData.name}</p>
-    </div>
-  );
+  return <Home />;
 };
 
 export default Planets;
