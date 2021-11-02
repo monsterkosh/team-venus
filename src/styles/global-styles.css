@@ -1,0 +1,19 @@
+:root {
+    --blue-grey: #38384F;
+    --blue-dark: #070724;
+    --blue-light: #2d68f0;
+    --blue-lighter: #419EBB;
+    --cyan: #1ec2a4;
+    --grey: #838391;
+    --yellow: #EDA249;
+    --purple: #6f2ed6;
+    --red-light: #D14C32;
+    --red: #D83A34;
+    --orange: #CD5120;
+    --ff-primary: 'Spartan', sans-serif;
+    --ff-secondary: 'Antonio', sans-serif;
+    --fs-100: 0.6875rem;
+    --fs-400: 0.875rem;
+    --fs-800: 2.5rem;
+    --fs-900: 5rem;
+}
