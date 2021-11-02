@@ -2,7 +2,6 @@
 
 .container {
     width: 100%;
-    background-color: var(--blue-dark);
 }
 .navbar__logo {
     color: var(--white);
@@ -13,7 +12,7 @@
 }
 .navbar__wrapper {
     width: 100%;
-    position: relative;
+    position:absolute;
     padding: 2.5em 1.5em;
     display: flex;
     justify-content: space-between;

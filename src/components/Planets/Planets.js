@@ -2,7 +2,6 @@ import React from 'react';
 import Box from '../Box/Box';
 
 const Planets = (data) => {
-  
   return (
     <div>
       <h1>planets component</h1>
