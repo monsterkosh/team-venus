@@ -1,5 +1,7 @@
 import React from 'react'
-import "../pages/styles/Home.css";
+import hamburguerIcon from '../../assets/icon-menu.svg';
+import chevron_right from '../../assets/right-chevron.png';
+import "../../styles/components/navbar.css";
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -9,50 +11,106 @@ function Home() {
                 <div className="navbar__logo">The Planets</div>
                 <input type="checkbox" id="menu" />
                 <label for="menu">
-                    <img className="menu_img" src="./icons/icon-hamburger.svg" alt="" />
+                    <img className="menu_img" src={hamburguerIcon} alt="" />
                 </label>
-                <nav className="navbar-mobile__items">
+                <nav id="items-navbar__mobile" className="navbar-mobile__items">
                     <ul>
                         <li>
-                            {/* <Link to='/'> */}
-                                Mercury
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--blue-lighter)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Mercury
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Venus
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--yellow)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Venus
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Earth
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--purple)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Earth
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Mars
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--red-light)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Mars
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Jupiter
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--red)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Jupiter
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>                        
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Saturn
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--orange)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Saturn
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Uranus
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--cyan)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Uranus
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>
+                        </li>
                         <li>
-                            {/* <Link to='/'> */}
-                                Neptune
-                                {/* </Link> */}
-                                </li>
+                            <div className="navbar-mobile__list-items">
+                                <span style={{backgroundColor: 'var(--blue-light)'}} className="circle"></span>
+                                {/* <Link to='/'> */}
+                                    Neptune
+                                    {/* </Link> */}
+                                <i className="navbar-mobile__chevron">
+                                    <img className="chevron_right" src={chevron_right} alt="" />
+                                </i>
+
+                            </div>   
+                        </li>
                     </ul>
                 </nav>
             </div>
