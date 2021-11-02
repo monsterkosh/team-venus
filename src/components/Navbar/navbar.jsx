@@ -1,9 +1,7 @@
 import React from 'react'
-
 import hamburguerIcon from '../../assets/icon-menu.svg';
 import chevron_right from '../../assets/right-chevron.png';
 import "../../styles/components/navbar.css";
-
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -114,8 +112,6 @@ function Navbar() {
                         </li>
                     </ul>
                 </nav>
-            
-            
                 <nav className="navbar-desktop__items">
                     <ul>
                         <li>Mercury</li>
