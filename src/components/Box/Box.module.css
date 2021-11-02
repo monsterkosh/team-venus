@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     border: solid 1px gainsboro;
+    color: white;
 }
 
 .footer_boxes > h2,
