@@ -1,4 +1,11 @@
 .footer_boxes{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    border: solid 1px gainsboro;
+}
+
+.footer_boxes > h2,
+.footer_boxes > h4 {
+    padding: 0 0 25px 15px;
 }
