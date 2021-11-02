@@ -1,9 +1,11 @@
 import navBar from './components/navbar'
-import { Switch,Route } from 'react-router-dom';
+import { Switch,Route } from 'react-router-dom'; 
+
 function App() {
   return (
        <>
           <navBar />
+          
             <Switch>
               <Route exact path="/mercury">
                 <Mercury />
