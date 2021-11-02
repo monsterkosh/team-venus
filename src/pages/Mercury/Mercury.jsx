@@ -1,8 +1,8 @@
-import Planets from '../../components/Planets/Planets';
+import Home from '../../components/Home/Home';
 import { mercuryData } from './mercury-data';
 
 const Mercury = () => {
-  return <Planets planetData={mercuryData} />;
+  return <Home planetData={mercuryData} />;
 };
 
 export default Mercury;

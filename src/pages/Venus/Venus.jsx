@@ -1,8 +1,8 @@
-import Planets from '../../components/Planets/Planets';
+import Home from '../../components/Home/Home';
 import { venusData } from './venus-data';
 
 const Venus = () => {
-  return <Planets planetData={venusData} />;
+  return <Home planetData={venusData} />;
 };
 
 export default Venus;

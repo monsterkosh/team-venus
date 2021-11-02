@@ -1,8 +1,8 @@
-import Planets from '../../components/Planets/Planets';
+import Home from '../../components/Home/Home';
 import { uranusData } from './uranus-data';
 
 const Uranus = () => {
-  return <Planets planetData={uranusData} />;
+  return <Home planetData={uranusData} />;
 };
 
 export default Uranus;

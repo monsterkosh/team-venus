@@ -1,8 +1,8 @@
-import Planets from '../../components/Planets/Planets';
+import Home from '../../components/Home/Home';
 import { jupiterData } from './jupiter-data';
 
 const Jupiter = () => {
-  return <Planets planetData={jupiterData} />;
+  return <Home planetData={jupiterData} />;
 };
 
 export default Jupiter;

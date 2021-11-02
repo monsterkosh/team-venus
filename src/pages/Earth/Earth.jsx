@@ -1,8 +1,8 @@
-import Planets from '../../components/Planets/Planets';
+import Home from '../../components/Home/Home';
 import { earthData } from './earth-data';
 
 const Earth = () => {
-  return <Planets planetData={earthData} />;
+  return <Home planetData={earthData} />;
 };
 
 export default Earth;
