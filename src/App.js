@@ -1,4 +1,4 @@
-import navBar from './components/Navbar/navbar';
+import Navbar from './components/Navbar/Navbar';
 import { Switch, Route } from 'react-router-dom';
 import Mercury from './pages/Mercury/Mercury';
 import Venus from './pages/Venus/Venus';
