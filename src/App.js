@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/navbar';
 import { Switch, Route } from 'react-router-dom';
 import Mercury from './pages/Mercury/Mercury';
 import Venus from './pages/Venus/Venus';
@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <Navbar />
-
       <Switch>
         <Route exact path='/mercury'>
           <Mercury />
