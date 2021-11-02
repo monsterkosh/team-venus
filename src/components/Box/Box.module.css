@@ -1,0 +1,4 @@
+.footer_boxes{
+    display: flex;
+    flex-direction: column;
+}
