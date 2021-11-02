@@ -1,11 +1,19 @@
-import navBar from './components/navbar'
-import { Switch,Route } from 'react-router-dom'; 
+import navBar from './components/Navbar/navbar';
+import { Switch,Route } from 'react-router-dom';
+import Mercury from './pages/Mercury/Mercury';
+import Venus from './pages/Venus/Venus';
+import Earth from './pages/Earth/Earth';
+import Mars from './pages/Mars/Mars';
+import Jupiter from './pages/Jupiter/Jupiter';
+import Saturn from './pages/Saturn/Saturn';
+import Uranus from './pages/Uranus/Uranus';
+import Neptune from './pages/Neptune/Neptune';
 
 function App() {
   return (
        <>
           <navBar />
-          
+
             <Switch>
               <Route exact path="/mercury">
                 <Mercury />
