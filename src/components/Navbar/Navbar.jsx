@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import hamburguerIcon from '../../assets/icon-menu.svg';
 import chevron_right from '../../assets/right-chevron.png';
 import style from './Navbar.module.css';
@@ -23,9 +24,9 @@ function Navbar() {
                   style={{ backgroundColor: 'var(--blue-lighter)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
+                {/* <Link to='/' /> */}
                 Mercury
-                {/* </Link> */}
+                {/* <Link to='/' /> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -165,8 +166,12 @@ function Navbar() {
         </nav>
         <nav className={style.navbar_desktop__items}>
           <ul>
-            <li>Mercury</li>
-            <li>Venus</li>
+            <li>
+              <Link to='/mercury'>Mercury</Link>
+            </li>
+            <li>
+              <Link to='/venus'>Venus</Link>
+            </li>
             <li>Earth</li>
             <li>Mars</li>
             <li>Jupiter</li>

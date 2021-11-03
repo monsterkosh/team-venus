@@ -2,5 +2,98 @@
     width: 100vw;
     height: 100vh;
     color: white;
-    padding-top: 300px;
+    padding-top: 70px;
+}
+
+.hero_wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.hero_views {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.hero_views button {
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    color: hsl(240,6%,54%);
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.12rem;
+    font-family: var(--ff-first);
+    padding: 20px 0;
+}
+
+.hero_views button:hover {
+   color: white;
+   padding-bottom: 20px;
+   border-bottom: 4px solid hsl(194,48%,49%);
+}
+
+.hero_images {
+    padding: 80px 0;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hero_images img {
+    margin: 0 auto;
+    max-width: 151px;
+    box-sizing: border-box;
+}
+
+.hero_images__mini {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -50%;
+    padding-bottom: 40px;
+}
+
+.hero_images__mini img {
+    width: 100px;
+    height: 100%;
+}
+
+.hero_info {
+    margin-bottom: 25px;
+}
+
+.hero_title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: var(--ff-secondary);
+    text-align: center;
+}
+
+.hero_info__desc {
+    font-family: var(--ff-first);
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    padding: 20px 24px;
+    color: hsla(0,0%,100%,0.65);
+    line-height: 22px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hero_info__wiki {
+    text-align: center;
+    color: hsl(240,6%,54%);
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.hero_info__wiki a {
+    color: hsl(240,6%,54%);
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 25px;
 }

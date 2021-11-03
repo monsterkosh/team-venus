@@ -7,12 +7,12 @@
     text-transform: uppercase;
     font-family: var(--ff-secondary);
     font-weight: 500;
-    font-size: 28px;
+    font-size: 1.8rem;
 }
 .navbar__wrapper {
     width: 100%;
     position:absolute;
-    padding: 2.5em 1.5em;
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ input[type='checkbox'] {
     }
     .navbar__wrapper {
         flex-direction: column;
-        padding: 2.5em 1.5em 0;
+        padding: 16px 24px;
         border-bottom: 2px solid rgba(151, 151, 151, 0.2);
     }
     .navbar_mobile__list-items {
@@ -123,9 +123,12 @@ input[type='checkbox'] {
     }
     
     .menu_img {
-        width: 40px;
+        width: 35px;
+        height: 35px;
         color: var(--white);
+        padding-top: 4px;
     }
+
     .menu:checked ~ #items_navbar__mobile {
         display: flex;
         position: absolute;
