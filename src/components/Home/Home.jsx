@@ -73,7 +73,7 @@ const Home = (data) => {
           </div>
         </div>
       </div>
-      <div>
+      <div className={style.boxes_container}>
         <Box title='rotation time' data={data.planetData.rotation} />
         <Box title='revolution time' data={data.planetData.revolution} />
         <Box title='radius' data={data.planetData.radius} />

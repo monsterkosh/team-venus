@@ -99,3 +99,26 @@
     font-weight: 600;
     line-height: 25px;
 }
+
+
+
+.boxes_container{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    padding: 50px;
+}
+/* abajo, @media del container para que acomodes donde creas que es mejor */
+/* mobile */
+@media screen and (max-width: 500px){
+    .boxes_container{
+        flex-direction: column;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 900px){
+   .boxes_container{
+       justify-content: space-around;
+   }
+}
