@@ -18,33 +18,33 @@ function Navbar() {
           className={style.navbar_mobile__items}
         >
           <ul>
-            <li>
-              <div className={style.navbar_mobile__list_items}>
-                <span
-                  style={{ backgroundColor: 'var(--blue-lighter)' }}
-                  className={style.circle}
-                ></span>
-                {/* <Link to='/' /> */}
-                Mercury
-                {/* <Link to='/' /> */}
-                <i className={style.navbar_mobile__chevron}>
-                  <img
-                    className={style.chevron_right}
-                    src={chevron_right}
-                    alt=''
-                  />
-                </i>
-              </div>
-            </li>
+            <Link className={style.navbar_desktop__links} to="/mercury">
+              <li>
+                <div className={style.navbar_mobile__list_items}>
+                  <span
+                    style={{ backgroundColor: 'var(--blue-lighter)' }}
+                    className={style.circle}
+                  ></span>
+                  
+                  Mercury
+                  <i className={style.navbar_mobile__chevron}>
+                    <img
+                      className={style.chevron_right}
+                      src={chevron_right}
+                      alt=''
+                    />
+                  </i>
+                </div>
+              </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/venus">
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--yellow)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Venus
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -54,15 +54,15 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/earth">
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--purple)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Earth
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -72,15 +72,15 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/mars">
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--red-light)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Mars
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -90,15 +90,15 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to='/jupiter'>
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--red)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Jupiter
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -108,15 +108,15 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/saturn">
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--orange)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Saturn
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -126,15 +126,15 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/uranus">
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--cyan)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Uranus
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -144,15 +144,15 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to='/neptune'>
             <li>
               <div className={style.navbar_mobile__list_items}>
                 <span
                   style={{ backgroundColor: 'var(--blue-light)' }}
                   className={style.circle}
                 ></span>
-                {/* <Link to='/'> */}
                 Neptune
-                {/* </Link> */}
                 <i className={style.navbar_mobile__chevron}>
                   <img
                     className={style.chevron_right}
@@ -162,22 +162,39 @@ function Navbar() {
                 </i>
               </div>
             </li>
+            </Link>
           </ul>
         </nav>
         <nav className={style.navbar_desktop__items}>
           <ul>
-            <li>
-              <Link to='/mercury'>Mercury</Link>
-            </li>
-            <li>
-              <Link to='/venus'>Venus</Link>
-            </li>
-            <li>Earth</li>
-            <li>Mars</li>
-            <li>Jupiter</li>
-            <li>Saturn</li>
-            <li>Uranus</li>
-            <li>Neptune</li>
+            <Link className={style.navbar_desktop__links} to='/mercury'>
+              <li>
+                Mercury
+              </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to='/venus'>
+              <li>
+                Venus
+              </li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/earth">
+              <li>Earth</li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/mars">
+              <li>Mars</li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/jupiter">
+              <li>Jupiter</li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/saturn">
+              <li>Saturn</li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/uranus">
+              <li>Uranus</li>
+            </Link>
+            <Link className={style.navbar_desktop__links} to="/neptune">
+              <li>Neptune</li>
+            </Link>
           </ul>
         </nav>
       </div>
