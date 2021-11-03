@@ -1,3 +1,4 @@
+/* general or global style for Box.jsx */
 .footer_boxes{
     display: flex;
     flex-direction: column;
@@ -29,7 +30,7 @@
     }
 }
 
-
+/* tablet-style */
 @media screen and (min-width: 501px){
    .footer_boxes{
        width: 50%;
