@@ -7,6 +7,9 @@
     text-transform: uppercase;
 }
 
+.footer_boxes > h2{
+    color: rgba(255, 255, 255, 0.562);
+}
 
 /* mobile-style */
 @media screen and (max-width: 500px){
@@ -16,13 +19,22 @@
         justify-content: space-between;
         align-items: center;
         height: 30px;
-        width: 75%;
+        width: 100%;
         margin: 15px 40px;
         padding: 20px;
     }
 
     .footer_boxes > h2 {
-        font-size: 12px;
-        color: rgba(255, 255, 255, 0.562);
+        font-size: 0.8rem;
     }
 }
+
+
+@media screen and (min-width: 501px){
+   .footer_boxes{
+       width: 50%;
+       height: 50%;
+       margin: 10px;
+       padding: 10px;
+   }
+} 
