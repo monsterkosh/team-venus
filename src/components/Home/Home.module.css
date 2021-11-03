@@ -99,3 +99,12 @@
     font-weight: 600;
     line-height: 25px;
 }
+
+
+/* abajo, @media del container para que acomodes donde creas que es mejor */
+@media screen and (max-width: 500px){
+    .boxes_container{
+        display: flex;
+        flex-direction: column;
+    }
+}
