@@ -1,1 +1,3 @@
 # Arreglar boxes, se rompen, esta todo mal
+# Arreglar navbar colors after click
+# Arreglar state buttons colors after clock
