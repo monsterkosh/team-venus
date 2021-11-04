@@ -114,7 +114,7 @@
 }
 /* abajo, @media del container para que acomodes donde creas que es mejor */
 /* mobile */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 638px){
     .boxes_container{
         flex-direction: column;
     }
