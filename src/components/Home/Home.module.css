@@ -1,6 +1,6 @@
 .container {
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    /* height: 100vh; */
     color: white;
     padding-top: 70px;
 }
@@ -100,7 +100,11 @@
     line-height: 25px;
 }
 
-
+.hero_info__wiki img {
+    margin-left: 10px;
+    width: 20px;
+    margin-bottom: -5px;
+}
 
 .boxes_container{
     display: flex;
@@ -114,6 +118,9 @@
     .boxes_container{
         flex-direction: column;
     }
+    .hero_views_desk {
+        display: none;
+    }
 }
 
 /* tablet */
@@ -121,4 +128,145 @@
    .boxes_container{
        justify-content: space-around;
    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 960px) {
+    .hero_images__mini {
+        vertical-align: middle;
+        text-align: center;
+        margin-top: -20%;
+    }
+    .container {
+        padding-top: 200px;
+    }
+     .hero_views_desk {
+        display: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+
+    .hero_views {
+        display: none;
+    }
+
+    .hero_wrapper {
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: center;
+        padding-top: 60px;
+    }
+
+    .hero_left {
+        width: 50%;
+    }
+
+    .hero_images {
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+    .hero_images img {
+        margin: 0 auto;
+        width: 400px;
+        max-width: 700px;
+        box-sizing: border-box;
+    }
+    
+    .hero_images__mini {
+        display: inline-block;
+        width: 100%;
+        margin-top: -90%;
+    }
+    
+    .hero_images__mini img {
+        width: 200px;
+        height: 100%;
+    }
+
+    .hero_right {
+        padding-top: 30px;
+        width: 20%;
+        /* background-color: red; */
+    }
+
+    .hero_info {
+        /* background-color: blue; */
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;;
+        padding: 0px;
+    }
+
+    .hero_title {
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+
+    .hero_info__desc {
+        justify-content: flex-start;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 22px;
+        max-width: 500px;
+        text-align: left;
+        align-items: left;
+        margin: 0;
+        padding: 50px 0px;
+    }
+
+    .hero_info__wiki {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .hero_info__wiki a {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .boxes_container {
+        padding: 40px;
+    }
+
+    .hero_views_desk {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    
+    .hero_views_desk button {
+        border: none;
+        text-decoration: none;
+        background: transparent;
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.12rem;
+        font-family: var(--ff-first);
+        padding: 15px 5px 15px 20px;
+        text-align: left;
+        border: 1px solid hsl(240,17%,26%);
+        margin: 10px 0px;
+    }
+    
+    .hero_views_desk button:hover {
+       color: white;
+       background-color: hsl(194,48%,49%);
+    }
+
+
+
+
+
+
+
 }
