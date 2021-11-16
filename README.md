@@ -3,7 +3,7 @@
 This project was created by: 
 - Alejo Vera
 - Gaston Benitez
-- Emiliano Franco
+- Emiliano Franco (Team Leader)
 
 ## Scripts
 
